@@ -20,10 +20,8 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>javax.javaee</groupId>
-			<artifactId>javaee</artifactId>
-			<!-- 在部署的时候，由web容器提供，不需要此包。因为容器中就有，版本不同，启动会报错 -->
-			<scope>provided</scope>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.freemarker</groupId>
